@@ -25,6 +25,7 @@ end
 function M.check_wrapp(m)
     local lhs=utils.keycode(m.lhs)
     return function (o)
+        if not vim.tbl_contains(m.mode,o.mode) then return end
         if o.key~=lhs then return end
         if not m.filter(o) then return end
         if type(m.rhs)=='function' then
