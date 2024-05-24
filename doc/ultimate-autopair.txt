@@ -670,6 +670,14 @@ If you want to use it: >lua
   profile=require'ultimate-autopair.experimental.matchpair'.init,
  }})
 <
+------------------------------------------------------------------------------
+experimental-cmpair                    *ultimate-autopair-experimental-cmpair*
+When confirming a cmp-completion and it is a function, add a pair.
+If you want to use it: >lua
+ require'ultimate-autopair'.init({your_pair_config,{
+  profile=require'ultimate-autopair.experimental.cmpair'.init,
+ }})
+<
 ==============================================================================
 WRITING-EXTENSIONS                      *ultimate-autopair-writing-extensions*
 Todo: write documentation
