@@ -135,7 +135,8 @@ M.conf={
       'quoted_attribute_value', --html
       'template_string', --javascript
       'LINESTRING','STRINGLITERALSINGLE','CHAR_LITERAL', --zig
-      'string_literals','character_literal','line_comment','block_comment','nesting_block_comment' --d #62
+      'string_literals','character_literal','line_comment','block_comment','nesting_block_comment', --d #62
+      'multiline_comment','line_string_literal','raw_string_literal','multi_line_string_literal', -- swift #84
     }},
     cond={p=40,filter=true},
     alpha={p=30,filter=false,all=false},
