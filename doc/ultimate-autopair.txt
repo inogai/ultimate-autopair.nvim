@@ -3,7 +3,7 @@
 TUTORIAL                                             *ultimate-autopair-TUTOR*
 ------------------------------------------------------------------------------
 example-configuration                       *ultimate-autopair-example-config*
-{NOTE} This is only a surfice level look at the configuration.
+{NOTE} This is only a surface level look at the configuration.
 To configure internal pairs, use `{config_internal_pairs={'(',')',fly=false}}`
 To create a pair, use `{{'(,',')'}}`.
 To create a pair for a filetype, use `{{'(,',')',ft={ft1,ft2}}}`.
